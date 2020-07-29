@@ -1,5 +1,4 @@
-// import SortableList from './index.js';
-import SortableList from '../solution/index.js';
+import SortableList from './index.js';
 
 describe('tests-for-frontend-apps/sortable-list', () => {
   let sortableList;
