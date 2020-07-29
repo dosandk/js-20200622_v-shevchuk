@@ -97,8 +97,6 @@ export default class SortableList {
     dragStart(itemElem, {clientX, clientY}) {
         this.elementInitialIndex = [...this.element.children].indexOf(itemElem);
 
-        console.error('itemElem.getBoundingClientRect()', itemElem.getBoundingClientRect());
-
         this.pointerInitialShift = {
             x: clientX - itemElem.getBoundingClientRect().x,
             y: clientY - itemElem.getBoundingClientRect().y
